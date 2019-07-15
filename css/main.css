@@ -1,0 +1,108 @@
+body, html {
+  background-color: #FAF8F4;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px 10px 0 10px;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  display: block;
+  line-height: 1.5;
+}
+
+.title {
+  margin: 50px 0;
+  font-size: 40px;
+  color: #4E4F68;
+  font-family: 'Baloo', cursive;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.title small {
+  font-size: 15px;
+  display: block;
+}
+
+.flag {
+  height: 10px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+
+.flag div {
+  display: block;
+  height: 10px;;
+}
+
+.flag-red {
+  background-color: #C8102E;
+  flex-grow: 4;
+}
+.flag-blue {
+  background-color: #001489;
+  flex-grow: 2;
+}
+.flag-white {
+  background-color: #FFF;
+  flex-grow: 1;
+}
+
+.description {
+  color: #938FA4;
+  line-height: 1.5;
+  margin-bottom: 50px;
+}
+
+.slider {
+  margin-bottom: 50px;
+}
+
+.mySlides {display:none;}
+
+.slider img {
+  border-radius: 20px;
+  border:solid 5px #FFF;
+  margin: 0 auto;
+  width: 80%;
+  box-shadow: 0px 0px 9px 0px rgba(222, 222, 222,1);
+}
+
+.bullets {
+  text-align: center;
+}
+
+.bullets button {
+  color: #4E4F68;
+  font-size: 70px;
+}
+
+.download-bagdes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.download-bagdes a img {
+  width: 130px;
+}
+
+.official-flagdays {
+  margin: 0 -20px;
+  padding: 20px;
+  background-color: #d5e8d3;
+  color: #4E4F68;
+}
+
+.flagday {
+  margin-bottom: 50px;
+  line-height: 1.5;
+}
+
+.flagday-date {
+  font-weight: bold;
+  font-size: 20px;
+  /* font-family: 'Roboto Mono', monospace; */
+}

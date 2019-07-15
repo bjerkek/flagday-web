@@ -1,0 +1,143 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link href="https://fonts.googleapis.com/css?family=Baloo|Roboto|Roboto+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+
+  <div class="header">
+    <h1 class="title">flagge
+      <small>norske flaggdager</small>
+    </h1>
+
+    <div class="flag">
+      <div class="flag-red"></div>
+      <div class="flag-white"></div>
+      <div class="flag-blue"></div>
+      <div class="flag-white"></div>
+      <div class="flag-red"></div>
+    </div>
+    
+    <div class="description">
+      <p style="font-size: 20px;">Flagger du, men er usikker på hvilke dager flagget skal opp?</p>
+      <p style="font-size: 14px;">Hjelpen er her, og den er gratis. Last ned appen og få varsling når flagget skal heises og når det skal ned. I tillegg til alle norske offisielle flaggdager kan du også legge inn dine egne.</p>
+    </div>
+  </div>
+
+  <div class="slider">
+    <img class="mySlides" src="img/1.png" />
+    <img class="mySlides" src="img/2.png" />
+    <img class="mySlides" src="img/3.png" />
+
+    <div class="bullets">
+      <button class="" onclick="showImg(0)">&#8226;</button>
+      <button class="" onclick="showImg(1)">&#8226;</button>
+      <button class="" onclick="showImg(2)">&#8226;</button>
+    </div>
+  </div>
+
+  <div class="download-bagdes">
+    <a href="/"><img src="img/app-store-badge.svg" /></a>
+    <a href="/"><img src="img/google-play-badge.png" /></a>
+  </div>
+
+  <div class="official-flagdays">
+    <h2>Norges offisielle flaggdager</h2>
+    <div class="flagday">
+      <div class="flagday-date">1. januar</div>
+      <div class="flagday-description">1. nyttårsdag (opprinnelig offisiell festdag, offisiell flaggdag siden 2005 som følge av endring i desember 2004)</div>
+    </div>
+    <div class="flagday">
+      <div class="flagday-date">21. januar</div>
+      <div class="flagday-description">H.K.H. prinsesse Ingrid Alexandras fødselsdag (vedtatt i desember 2004)</div>
+    </div>
+    <div class="flagday">
+      <div class="flagday-date">6. februar</div>
+      <div class="flagday-description">Samefolkets dag (siden 2004)</div>
+    </div>
+    <div class="flagday">
+      <div class="flagday-date">21. februar</div>
+      <div class="flagday-description">H.M. kong Harald 5s fødselsdag (vedtatt i desember 1937)</div>
+    </div>
+    <div class="flagday">
+      <div class="flagday-date">1. mai</div>
+      <div class="flagday-description">Offentlig høytidsdag (Arbeidernes internasjonale kampdag) (siden 1935)</div>
+    </div>
+    <div class="flagday">
+      <div class="flagday-date">8. mai</div>
+      <div class="flagday-description">Frigjøringsdagen 1945 (siden 1962)</div>
+    </div>
+    <div class="flagday">
+      <div class="flagday-date">17. mai</div>
+      <div class="flagday-description">Grunnlovsdagen</div>
+    </div>
+    <div class="flagday">
+      <div class="flagday-date">7. juni</div>
+      <div class="flagday-description">Unionsoppløsningen 1905</div>
+    </div>
+    <div class="flagday">
+      <div class="flagday-date">4. juli</div>
+      <div class="flagday-description">H.M. dronning Sonjas fødselsdag (vedtatt i november 1968)</div>
+    </div>
+    <div class="flagday">
+      <div class="flagday-date">20. juli</div>
+      <div class="flagday-description">H.K.H. kronprins Haakon Magnus' fødselsdag (vedtatt i august 1973)</div>
+    </div>
+    <div class="flagday">
+      <div class="flagday-date">29. juli</div>
+      <div class="flagday-description">Olsokdagen (opprinnelig ikke påbudt flaggdag[3], offisiell flaggdag siden 1928)</div>
+    </div>
+    <div class="flagday">
+      <div class="flagday-date">19. august</div>
+      <div class="flagday-description">H.K.H. kronprinsesse Mette-Marits fødselsdag (siden 2001)</div>
+    </div>
+    <div class="flagday">
+      <div class="flagday-date">25. desember</div>
+      <div class="flagday-description">1. juledag (opprinnelig offisiell festdag, offisiell flaggdag siden 2004)</div>
+    </div>
+    -----------------
+    <div class="flagday">
+      <div class="flagday-date">1. påskedag</div>
+      <div class="flagday-description">(opprinnelig offisiell festdag, offisiell flaggdag siden 2005 som følge av endring i 2004)</div>
+    </div>
+    <div class="flagday">
+      <div class="flagday-date">1. pinsedag</div>
+      <div class="flagday-description">(opprinnelig offisiell festdag, offisiell flaggdag siden 2005 som følge av endring i 2004)</div>
+    </div>
+    <div class="flagday">
+      <div class="flagday-date">bevegelig</div>
+      <div class="flagday-description">Dagen for stortingsvalg (vedtatt i 1936)</div>
+    </div>	
+  </div>
+
+  <div class="footer">
+    
+  </div>
+
+
+  <script src="js/slides.js"></script>
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. 
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+  -->
+</body>
+
+</html>
