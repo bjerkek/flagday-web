@@ -75,8 +75,10 @@ h1 {
 }
 
 .bullets button {
-  color: #4E4F68;
+  color: #a3a3a7;
   font-size: 70px;
+  background-color: transparent;
+  border: none;
 }
 
 .download-bagdes {
@@ -92,8 +94,8 @@ h1 {
 .official-flagdays {
   margin: 0 -20px;
   padding: 20px;
-  background-color: #d5e8d3;
-  color: #4E4F68;
+  background-color: #FFF;
+  color: #525252;
 }
 
 .flagday {
@@ -105,4 +107,8 @@ h1 {
   font-weight: bold;
   font-size: 20px;
   /* font-family: 'Roboto Mono', monospace; */
+}
+
+.flagday-description {
+  font-size: 15px;
 }
