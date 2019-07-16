@@ -1,7 +1,6 @@
 body, html {
   background-color: #FAF8F4;
   font-family: 'Roboto', sans-serif;
-  padding: 10px 10px 0 10px;
 }
 
 h1 {
@@ -11,9 +10,13 @@ h1 {
   line-height: 1.5;
 }
 
+.main {
+  padding: 20px;
+}
+
 .title {
   margin: 50px 0;
-  font-size: 40px;
+  font-size: 44px;
   color: #4E4F68;
   font-family: 'Baloo', cursive;
   font-family: 'Roboto', sans-serif;
@@ -79,6 +82,8 @@ h1 {
   font-size: 70px;
   background-color: transparent;
   border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .download-bagdes {
@@ -111,4 +116,37 @@ h1 {
 
 .flagday-description {
   font-size: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 50px 0;
+  color: #938FA4;
+}
+
+footer a {
+  color: #006666;
+}
+
+@media (min-width: 768px) {
+  .main,
+  .official-flagdays,
+  footer {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .top {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+  }
+
+  .slider img {
+    width: 50%;
+  }
+  .title {
+    text-align: left;
+    margin-top: 0;
+  }
 }
