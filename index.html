@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <div class="main">
+  <main>
     <div class="top">
       <div class="header">
         <h1 class="title">flagge
@@ -37,14 +37,14 @@
 
         <div class="download-bagdes">
           <a href="/" title="Last ned fra App Store"><img src="img/app-store-badge.svg" alt="App Store logo" /></a>
-          <a href="/" title="Last ned fra Google Play"><img src="img/google-play-badge.png" alt="Google Play logo" /></a>
+          <!-- <a href="/" title="Last ned fra Google Play"><img src="img/google-play-badge.png" alt="Google Play logo" /></a> -->
         </div>
       </div>
     
-      <div class="slider">
-        <img class="mySlides" src="img/1.png" alt="Oversikt" />
-        <img class="mySlides" src="img/2.png" alt="Legg til flaggdag" />
-        <img class="mySlides" src="img/3.png" alt="Innstillinger" />
+      <div id="slider" class="slider">
+        <img class="mySlides" src="img/1.png" alt="Skjermbilde Oversikt" />
+        <img class="mySlides" src="img/2.png" alt="Skjermbilde Legg til flaggdag" />
+        <img class="mySlides" src="img/3.png" alt="Skjermbilde Innstillinger" />
     
         <div class="bullets">
           <button class="mySlides-button" onclick="showImg(0)">&#8226;</button>
@@ -53,7 +53,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </main>
   
   <div class="official-flagdays-container">
     <div class="official-flagdays">
@@ -125,19 +125,20 @@
     </div>
   </div>
   <footer class="footer">
-    Made by <a href="https://www.bjerkek.as">Bjerkek AS</a>
+    <p>Made by <a href="https://www.bjerkek.as">Bjerkek AS</a></p>
+    <p>Trenger du hjelp med appen?<br />Send en mail til <a href="mailto:support@bjerkek.as">support@bjerkek.as</a></p>
   </footer>
-  
-
 
   <script src="js/slides.js"></script>
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146174035-1"></script>
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-146174035-1');
   </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
-  -->
 </body>
 
 </html>
