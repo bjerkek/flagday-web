@@ -10,7 +10,7 @@ h1 {
   line-height: 1.5;
 }
 
-.main {
+main {
   padding: 20px;
 }
 
@@ -126,11 +126,11 @@ footer {
 }
 
 footer a {
-  color: #006666;
+  color: #538FEF;
 }
 
 @media (min-width: 768px) {
-  .main,
+  main,
   .official-flagdays,
   footer {
     max-width: 900px;
